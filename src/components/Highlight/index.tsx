@@ -8,7 +8,7 @@ export function Highlight({ title, subtitle }: Props){
 
     return(
         <Container>
-           <Container>
+          
                 <Title>
                     {title}
                 </Title>
@@ -16,7 +16,7 @@ export function Highlight({ title, subtitle }: Props){
                 <Subtitle>
                     {subtitle}
                 </Subtitle>
-            </Container>
+            
         </Container>
     )
 }
